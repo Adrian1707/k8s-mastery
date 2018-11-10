@@ -16,7 +16,7 @@ spec:
         app: sa-frontend                                  # 6
     spec:
       containers:
-        - image: adrian1707/sa-frontend:minikube
+        - image: adrian1707/sa-frontend
           imagePullPolicy: Always                         # 7
           name: sa-frontend
           ports:

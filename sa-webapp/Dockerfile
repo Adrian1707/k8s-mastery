@@ -3,4 +3,4 @@ FROM maven:3.5-jdk-8-alpine
 ADD . /
 RUN mvn install
 EXPOSE 8080
-CMD ["java", "-jar", "target/sentiment-analysis-web-0.0.1-SNAPSHOT.jar", "--sa.logic.api.url=${SA_LOGIC_API_URL}"]
+CMD ["java", "-jar", "target/sentiment-analysis-web-0.0.1-SNAPSHOT.jar", "--sa.logic.api.url=http://sa-logic"]

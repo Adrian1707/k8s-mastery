@@ -16,7 +16,7 @@ spec:
         app: sa-web-app
     spec:
       containers:
-      - image: adrian1707/sa-backend-final
+      - image: adrian1707/sa-backend
         imagePullPolicy: Always
         name: sa-web-app
         env:
