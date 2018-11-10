@@ -16,7 +16,7 @@ spec:
         app: sa-web-app
     spec:
       containers:
-      - image: adrian1707/sentiment-analysis-backend
+      - image: adrian1707/sa-backend-final
         imagePullPolicy: Always
         name: sa-web-app
         env:
