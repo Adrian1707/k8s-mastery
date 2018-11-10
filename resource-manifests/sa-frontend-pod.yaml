@@ -6,7 +6,7 @@ metadata:
     app: sa-frontend                                 # 2
 spec:                                                # 3
   containers:
-    - image: rinormaloku/sentiment-analysis-frontend # 4
+    - image: adrian1707/sentiment-analysis-frontend # 4
       name: sa-frontend                              # 5
       ports:
         - containerPort: 80                          # 6

@@ -16,8 +16,7 @@ spec:
         app: sa-frontend
     spec:
       containers:
-        - image: rinormaloku/sentiment-analysis-frontend:green
-          imagePullPolicy: Always
+        - image: adrian1707/sentiment-analysis-frontend:final
           name: sa-frontend
           ports:
             - containerPort: 80
